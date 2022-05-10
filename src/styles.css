@@ -1,0 +1,88 @@
+body {
+  background: #e8f4fd;
+}
+#city-input {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-color: #b7d9f2;
+  border-width: 25px;
+  border-radius: 10px;
+  font-size: 40px;
+  background: transparent;
+  font-family: "Saira", sans-serif;
+  font-weight: bolder;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background: #768e9d79;
+  border-radius: 30px;
+  font-family: "Saira", sans-serif;
+  border-color: #b7d9f2;
+}
+
+#get-forecast {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  background-color: #84c5fa;
+  font-size: 20px;
+  opacity: 0.75;
+  border-radius: 30px;
+  border-color: gray;
+  font-family: "Saira", sans-serif;
+}
+
+h2,
+h1,
+#current-temp {
+  text-align: center;
+  font-family: "Saira", sans-serif;
+}
+
+#fahrenheit-link,
+#celsius-link {
+  text-decoration: none;
+}
+
+#arrow {
+  display: block;
+  margin: 0 auto;
+  padding-right: 175px;
+  position: relative;
+  top: -10px;
+}
+.monday-card,
+.tuesday-card,
+.wed-card,
+.thursday-card,
+.friday-card {
+  text-align: center;
+  position: relative;
+  left: 117px;
+  background: #b7d9f2;
+  color: #768e9d;
+  font-family: "Saira", sans-serif;
+}
+
+.monday-temp,
+.tuesday-temp,
+.wed-temp,
+.thursday-temp,
+.friday-temp {
+  text-align: center;
+  position: relative;
+  left: 117px;
+  color: #768e9d;
+  font-family: "Saira", sans-serif;
+  background: #6bbbf5d2;
+}
+
+#high-temp {
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
